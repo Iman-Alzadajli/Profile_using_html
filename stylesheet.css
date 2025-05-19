@@ -1,0 +1,63 @@
+/* Reset and basics */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.navbarfull {
+  background-color: #f9e29d;
+  padding: 5px 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.navbarlogo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.navbarh3 {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-right {
+  margin-left: auto;
+  text-align: end;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ec7504;
+}
